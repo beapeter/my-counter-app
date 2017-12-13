@@ -1,0 +1,20 @@
+{
+  "name": "counter-app",
+  "version": "1.0.0",
+  "description": "counter app generate a random number",
+  "main": "app.js",
+  "homepage": "http://beapeter.github.io/counter-app",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.6"
+  }
+}
